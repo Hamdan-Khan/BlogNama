@@ -1,5 +1,5 @@
 import Image from "next/image";
-import star from "/Users/Dell/OneDrive/Documents/Web_development/WebDev Material/NEXT/practice/public/star.svg";
+import star from "../public/star.svg";
 
 export const metadata = {
   title: "About",
