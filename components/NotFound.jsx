@@ -9,7 +9,7 @@ export default function NotFound() {
       </h1>
       <Link
         className="bg-black text-white py-2 px-6 rounded-lg text-xl hover:bg-white border-2 border-black hover:text-black duration-200 font-semibold"
-        href={"/"}
+        href={"/blog"}
       >
         Go back
       </Link>

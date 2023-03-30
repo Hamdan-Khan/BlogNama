@@ -15,3 +15,44 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.glass {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.48);
+}
+.gradient-bg {
+  background-image: linear-gradient(
+    to left,
+    #104595,
+    #18609b,
+    #258eab,
+    #0ca278,
+    #69c764
+  );
+}
+
+.gradient-bg-full {
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: linear-gradient(
+    to left,
+    #104595,
+    #18609b,
+    #258eab,
+    #0ca278,
+    #69c764
+  );
+}

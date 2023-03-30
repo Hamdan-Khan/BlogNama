@@ -1,6 +1,5 @@
 import Blog from "@/components/Blog";
 import NotFound from "@/components/NotFound";
-import Head from "next/head";
 
 export async function generateStaticParams() {
   const posts = await fetch("https://dummyjson.com/posts").then((res) =>
@@ -31,10 +30,7 @@ export default async function Page({ params }) {
   const { title, body, userId, tags, reactions } = data;
   return (
     <>
-      <Head>
-        <title>{title}</title>
-      </Head>
-      <div className="p-6">
+      <div className="p-6 gradient-bg h-screen overflow-y-hidden">
         <h1 className="text-3xl font-bold px-3 pb-2">BLOG - {slug}</h1>
         <Blog
           title={title}
