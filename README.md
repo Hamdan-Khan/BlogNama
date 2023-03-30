@@ -1,6 +1,6 @@
 ## Blognama Dummy Website
 
-This is a simple website created using Next.js, React.js, and Tailwind CSS to showcase blog posts from a dummy API. The posts are generated randomly using dummyjson.com/posts/ and displayed on the homepage.
+This is a simple website created using Next.js, React.js, and Tailwind CSS to showcase blog posts from a dummy API. The posts are generated randomly using https://dummyjson.com/posts/ and displayed on the homepage.
 
 ## Features
 
@@ -21,7 +21,7 @@ Run npm run dev to start the development server.
 
 Open your web browser and go to http://localhost:3000 to view the homepage.
 
-The homepage displays a list of randomly generated blog posts from dummyjson.com/posts/.
+The homepage displays a list of randomly generated blog posts from https://dummyjson.com/posts/.
 
 ## Credits
 
