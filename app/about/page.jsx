@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import star from "../../public/star.svg";
 
 export const metadata = {
@@ -19,6 +20,13 @@ function Page() {
             <span className="font-bold text-shadow bg-sky-500 p-[3px] rounded-lg text-white">
               ReactJs
             </span>
+          </li>
+          <li>
+            LocalStorage is used to store blogs that you will create in this{" "}
+            <Link href="/getstarted" className="font-semibold underline">
+              section
+            </Link>{" "}
+            with the functionality to also delete them.
           </li>
           <li>
             The dummy data used is called from API :{" "}

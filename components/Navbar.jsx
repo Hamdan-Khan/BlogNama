@@ -34,7 +34,7 @@ export default function Navbar() {
               onClick={() => setNav(false)}
             ></Image>
           </li>
-          <li>
+          <li className="border-b border-b-zinc-400 py-4 px-2">
             <Link
               href="/"
               className="hover:text-white duration-200"
@@ -43,7 +43,7 @@ export default function Navbar() {
               Home
             </Link>
           </li>
-          <li>
+          <li className="border-b border-b-zinc-400 py-4 px-2">
             <Link
               href="/blog"
               className="hover:text-white duration-200"
@@ -52,7 +52,7 @@ export default function Navbar() {
               Blogs
             </Link>
           </li>
-          <li>
+          <li className="border-b border-b-zinc-400 py-4 px-2">
             <Link
               href="/about"
               className="hover:text-white duration-200"
@@ -61,7 +61,7 @@ export default function Navbar() {
               About
             </Link>
           </li>
-          <li>
+          <li className="border-b border-b-zinc-400 py-4 px-2">
             <Link
               href="/login"
               className="hover:text-white duration-200"
@@ -70,7 +70,7 @@ export default function Navbar() {
               Log In
             </Link>
           </li>
-          <li>
+          <li className="border-b border-b-zinc-400 py-4 px-2">
             <Link
               href="/getstarted"
               className="hover:text-white duration-200"

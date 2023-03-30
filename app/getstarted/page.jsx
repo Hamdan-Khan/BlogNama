@@ -1,7 +1,10 @@
+"use client";
+import Write from "@/components/Write";
+
 export default function Page() {
   return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold">GET STARTED - DUMMY PAGE</h1>
+    <div className="px-4 py-5 sm:p-10">
+      <Write />
     </div>
   );
 }
