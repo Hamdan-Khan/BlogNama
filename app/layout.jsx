@@ -15,6 +15,7 @@ export const metadata = {
   author: "Hamdan Khan",
   keywords:
     "Desi lifestyle,  Desi culture,  Desi entertainment,  Desi fashion,  Desi food,  South Asian cuisine,  Urdu literature,  Hindi movies,  Pakistani music,  Indian art",
+  "google-site-verification": "BsMMUd-8UXkLfTkPZdfUALK_J7VKYo8hRJfOZrhRynA",
 };
 
 export default function RootLayout({ children }) {
