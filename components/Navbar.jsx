@@ -28,7 +28,7 @@ export default function Navbar() {
         <ul className="text-2xl h-full font-semibold flex flex-col justify-between">
           <li>
             <Image
-              href={close}
+              src={close}
               alt="close"
               className="bg-white h-6 w-6 rounded-sm float-right"
               onClick={() => setNav(false)}
